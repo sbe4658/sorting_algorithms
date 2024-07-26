@@ -29,7 +29,6 @@ void bubble_sort(int *array, size_t size)
 				array[i + 1] = curr;
 				print_array(array, size);
 				count_swaps++;
-				++i;
 			}
 		}
 		if (!count_swaps)
